@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Follow Up Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="title">Follow Up Survey</h1>
+  <form>
+    <div class="form">
+      <!-- question 1 -->
+      <table>
+        <tr>
+          <th>
+            <h5 class="h5-date">When did you use our service?</h5>
+          </th>
+          <th>
+            <h5 class="h5-name">Name of product or service</h5>
+          </th>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="date" class="date" id="date">
+          </td>
+
+          <td>
+            <input type="text" class="name" id="name">
+          </td>
+        </tr>
+
+      </table>
+
+      <!-- question 2 -->
+      <h5>Overall, how satisfied are you with the product or service?</h5>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" name="satisfied" id="Very-satisfied">
+            <label for="Very-satisfied">Very satisfied</label>
+          </td>
+          <td>
+            <input type="radio" name="satisfied" id="satisfied">
+            <label for="satisfied">satisfied</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="satisfied" id="neutral">
+            <label for="neutral">Neutral</label>
+          </td>
+          <td>
+            <input type="radio" name="satisfied" id="unsatisfied">
+            <label for="unsatisfied">unsatisfied</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="satisfied" id="Very-unsatisfied">
+            <label for="Very-unsatisfied">Very unsatisfied</label>
+          </td>
+          <td>
+            <input type="radio" name="satisfied" id="na">
+            <label for="na">N/A</label>
+          </td>
+        </tr>
+      </table>
+
+      <!-- question 3 -->
+      <h5>Did our product or service meet your expectations?</h5>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" name="expectations" id="expectations-1">
+            <label for="expectations-1" class=" margin-right">Yes </label>
+          </td>
+          <td>
+            <input type="radio" name="expectations" id="expectations-2">
+            <label for="expectations-2">No</label>
+
+          </td>
+        </tr>
+      </table>
+
+      <!-- question 4 -->
+      <h5>Would you recommend this product or service to a friend? </h5>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" name="recommend" id="recommend-1">
+            <label for="recommend-1" class=" margin-right">Yes </label>
+          </td>
+          <td>
+            <input type="radio" name="recommend" id="recommend-2">
+            <label for="recommend-2">No</label>
+          </td>
+        </tr>
+      </table>
+
+      <!-- question 5 -->
+      <h5>What aspect of the product or service were you most satisfied by?</h5>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" name="aspect" id="quality">
+            <label for="quality">Quality </label>
+          </td>
+          <td>
+            <input type="radio" name="aspect" id="price">
+            <label for="price">Price </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="aspect" id="customer-service">
+            <label for="customer-service">Customer service </label>
+          </td>
+          <td>
+            <input type="radio" name="aspect" id="installation">
+            <label for="installation">Installation or first use experience </label>
+          </td>
+        </tr>
+      </table>
+
+      <!-- question 6 -->
+      <h5>What aspect of the product or service were you least satisfied by?</h5>
+      <table>
+        <tr>
+          <td>
+            <input type="radio" name="aspect-least" id="quality1">
+            <label for="quality1">Quality </label>
+          </td>
+          <td>
+            <input type="radio" name="aspect-least" id="price1">
+            <label for="price1">Price </label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="radio" name="aspect-least" id="customer-service1">
+            <label for="customer-service1">Customer service </label>
+          </td>
+          <td>
+            <input type="radio" name="aspect-least" id="installation1">
+            <label for="installation1">Installation or first use experience </label>
+          </td>
+        </tr>
+      </table>
+
+
+      <!-- comments  -->
+      <div class="comments">
+        <h5>Additional comments:</h5>
+        <textarea cols="100" rows="5" placeholder="Type here"></textarea>
+      </div>
+    </div>
+
+    <div class="btn">
+      <input type="submit" value="submit" class="submit">
+    </div>
+
+  </form>
+
+</body>
+
+</html>
